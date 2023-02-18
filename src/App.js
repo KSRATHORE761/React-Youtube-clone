@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 
 import SearchPage from './SearchPage';
+import VideoPlayer from './Components/VideoPlayer/VideoPlayer';
 
 function App() {
   return (
@@ -18,6 +19,15 @@ function App() {
       <Router>
         <Header />
         <Routes>
+        <Route path='/video/:videoId'
+        element={
+          <React.Fragment>
+            <div className='app_page'>
+              <VideoPlayer></VideoPlayer>
+            </div>
+          </React.Fragment>
+        }>
+        </Route>
           <Route path='/search/:searchItem'
           element = {
             <React.Fragment>

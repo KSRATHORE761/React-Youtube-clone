@@ -17,15 +17,20 @@
 .header__middle{
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 42%;
     /* height: 30px; */
-    border: 1px solid lightgray;
-    /* border-radius:999px; */
+    border: 1px solid gray;
+    background: transparent;
+    /* border-radius: 40px 0 0 40px; */
+    caret-color: var(--yt-spec-text-primary);
+
 }
 
 .header__middle > input{
     flex:1;
-    border: none;
+    border: 0;
+    outline: none;
+    width: 100%;
 }
 .header__right{
     display: flex;

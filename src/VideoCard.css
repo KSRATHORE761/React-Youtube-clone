@@ -7,6 +7,7 @@
     height: 150px;
     width: 280px;
     cursor: pointer;
+     border-radius:10px;
 }
 
 .videoCard__info{
