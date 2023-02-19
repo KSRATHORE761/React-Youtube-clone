@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './SearchPage.css';
 import TuneOutlinedIcon from '@mui/icons-material/TuneOutlined';
-import ChannelRow from './ChannelRow';
-import VideoRow from './VideoRow';
+import ChannelRow from '../ChannelRow/ChannelRow';
+import VideoRow from '../VideoCard/VideoCard'
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import REACT_APP_YOUTUBE_API_KEY from './YoutubeApiKey';
+import REACT_APP_YOUTUBE_API_KEY from '../../YoutubeApiKey';
 import CircularProgress from '@mui/material/CircularProgress';
 import Alert from '@mui/material/Alert';
 import { DateTime } from 'luxon';

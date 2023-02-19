@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import './VideoPlayer.css';
 import { useParams } from 'react-router-dom';
 import Video from '../Video/Video';
-import RecommendedVideos from '../../RecommendedVideos';
+import RecommendedVideos from '../RecomendedVideos/RecommendedVideos';
 import VideoInfo from '../VideoInfo/VideoInfo';
 import axios from 'axios';
 import { CircularProgress } from '@mui/material';

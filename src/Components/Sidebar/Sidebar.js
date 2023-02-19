@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
-import SidebarRow from './SidebarRow';
+import SidebarRow from '../SidebarRow/SidebarRow';
 import HomeIcon from '@mui/icons-material/Home';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';

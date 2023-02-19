@@ -1,7 +1,7 @@
 import React,{ useEffect, useState } from 'react';
 import './RecommendedVideos.css';
-import VideoCard from './VideoCard';
-import REACT_APP_YOUTUBE_API_KEY from './YoutubeApiKey';
+import VideoCard from '../VideoCard/VideoCard'
+import REACT_APP_YOUTUBE_API_KEY from '../../YoutubeApiKey';
 //import searchYouTube from './YoutubeAPISearch';
 import axios from 'axios';
 import {DateTime} from 'luxon';

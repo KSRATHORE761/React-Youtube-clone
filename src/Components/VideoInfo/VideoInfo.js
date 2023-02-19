@@ -2,11 +2,11 @@ import React from 'react'
 import './VideoInfo.css';
 import { Avatar, Button } from '@mui/material';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import Sidebar from '../../Sidebar';
+import Sidebar from '../Sidebar/Sidebar'
 import ReplyIcon from '@mui/icons-material/Reply';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import PlaylistAddIcon from '@mui/icons-material/PlaylistAdd';
-import SidebarRow from '../../SidebarRow';
+import SidebarRow from '../SidebarRow/SidebarRow';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 
 function VideoInfo({ title, description, publishedDate, channelTitle, channelImage, viewCount, likeCount, dislikeCount, subs }) {
